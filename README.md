@@ -1,136 +1,72 @@
 # 🧠 AI Skills & Agents Inventory
 
-Un catálogo curado y estructurado de repositorios, herramientas y recursos sobre **Skills**, **Agentes** y **Sistemas Autónomos de Inteligencia Artificial**, clasificados por **Temática**, **Orientación Técnica** y **Sector de Aplicación**.
+Un catálogo curado y modular de repositorios, herramientas y recursos sobre **Skills**, **Agentes** y **Sistemas Autónomos de Inteligencia Artificial**, organizado por subdirectorios según **Temática**, **Orientación Técnica** y **Sector de Aplicación**.
 
 ---
 
-## 📑 Tabla de Contenidos
+## 📁 Estructura del Repositorio
 
-- [🎯 Estructura de Clasificación](#-estructura-de-clasificación)
-- [🗂️ 1. Clasificación por Temática / Capacidades](#️-1-clasificación-por-temática--capacidades)
-  - [1.1. Ciberseguridad & Pentesting](#11-ciberseguridad--pentesting)
-  - [1.2. Desarrollo de Software & DevOps](#12-desarrollo-de-software--devops)
-  - [1.3. Investigación, RAG & Recuperación de Información](#13-investigación-rag--recuperación-de-información)
-  - [1.4. Automatización & Productividad](#14-automatización--productividad)
-  - [1.5. Datos, Analytics & Business Intelligence](#15-datos-analytics--business-intelligence)
-- [🧩 2. Clasificación por Orientación Técnica](#-2-clasificación-por-orientación-técnica)
-  - [2.1. Frameworks de Orquestación Multi-Agente](#21-frameworks-de-orquestación-multi-agente)
-  - [2.2. Protocolos & Ecosistemas (MCP, Tools & Skills)](#22-protocolos--ecosistemas-mcp-tools--skills)
-  - [2.3. Agentes Autónomos / Goal-Driven](#23-agentes-autónomos--goal-driven)
-- [🏢 3. Clasificación por Sector Industrial](#-3-clasificación-por-sector-industrial)
-  - [3.1. Financiero & Fintech](#31-financiero--fintech)
-  - [3.2. Salud & Biotecnología](#32-salud--biotecnología)
-  - [3.3. Legal & Compliance](#33-legal--compliance)
-  - [3.4. E-Commerce & Retail](#34-e-commerce--retail)
-- [📝 Plantilla para Nuevas Entradas](#-plantilla-para-nuevas-entradas)
-- [🤝 Contribución](#-contribución)
+El inventario está desacoplado en carpetas dedicadas para facilitar la navegación y el mantenimiento independiente:
 
----
-
-## 🎯 Estructura de Clasificación
-
-Cada repositorio listado contiene la siguiente ficha técnica mínima:
-- **Nombre / Enlace**: Nombre del repositorio.
-- **Tipo**: `Skill` | `Agente Individual` | `Multi-Agente` | `MCP Server` | `Framework`.
-- **Descripción**: Resumen funcional breve.
-- **Stack / Modelos**: Tecnologías base o compatibilidad (ej. Python, TypeScript, LangChain, MCP).
+```text
+SKILL_INVENTORY/
+├── orientaciones/
+│   ├── autonomos/                     # Agentes goal-driven y reflexivos
+│   ├── mcp-tools/                     # Servidores MCP, protocolos y herramientas
+│   └── multi-agente/                  # Frameworks y arquitecturas multi-agente
+├── sectores/
+│   ├── ecommerce/                     # Comercio electrónico y retail
+│   ├── fintech/                       # Finanzas, contabilidad y fraude
+│   ├── legal/                         # Compliance, contratos y normativas
+│   └── salud/                         # Sanidad, medicina y biotecnología
+└── tematicas/
+    ├── automatizacion-productividad/  # Automatización de tareas y browser ops
+    ├── ciberseguridad/                # Pentesting, auditorías y detección
+    ├── datos-analitica/               # Análisis de datos, SQL y BI
+    ├── devops-desarrollo/             # Coding assistants, CI/CD y refactor
+    └── investigacion-rag/             # RAG, búsqueda profunda y literatura
+```
 
 ---
 
-## 🗂️ 1. Clasificación por Temática / Capacidades
+## 📑 Índice Rápido de Categorías
 
-### 1.1. Ciberseguridad & Pentesting
-> Agentes y skills enfocados en auditorías de seguridad, pentesting web/API, análisis de vulnerabilidades y detección de amenazas.
+### 🗂️ 1. Por Temática / Capacidades
+- [🛡️ Ciberseguridad & Pentesting](tematicas/ciberseguridad/README.md)
+- [💻 Desarrollo de Software & DevOps](tematicas/devops-desarrollo/README.md)
+- [🔍 Investigación, RAG & Recuperación de Información](tematicas/investigacion-rag/README.md)
+- [⚡ Automatización & Productividad](tematicas/automatizacion-productividad/README.md)
+- [📊 Datos, Analytics & Business Intelligence](tematicas/datos-analitica/README.md)
 
-| Repositorio | Tipo | Descripción | Stack / Protocolo |
-| :--- | :--- | :--- | :--- |
-| *Ejemplo: SecAgent* | Agente | Orquestación de escaneos OWASP y análisis de endpoints | Python, Burp API, MCP |
+### 🧩 2. Por Orientación Técnica
+- [🤝 Frameworks Multi-Agente](orientaciones/multi-agente/README.md) (CrewAI, AutoGen, LangGraph, etc.)
+- [🔌 Protocolo MCP & Herramientas](orientaciones/mcp-tools/README.md) (Model Context Protocol, Servers oficiales)
+- [🤖 Agentes Autónomos / Goal-Driven](orientaciones/autonomos/README.md)
 
-### 1.2. Desarrollo de Software & DevOps
-> Agentes de codificación, pair programming, generación de pipelines CI/CD y refactorización asistida.
-
-| Repositorio | Tipo | Descripción | Stack / Protocolo |
-| :--- | :--- | :--- | :--- |
-| *Ejemplo: CodeCompanion* | Skill | Generación de tests unitarios y flujos GitHub Actions | TypeScript, Git CLI |
-
-### 1.3. Investigación, RAG & Recuperación de Información
-> Agentes de búsqueda profunda (Deep Research), síntesis de fuentes académicas o corporativas y motores RAG.
-
-| Repositorio | Tipo | Descripción | Stack / Protocolo |
-| :--- | :--- | :--- | :--- |
-| *Ejemplo: AcademicSearch* | Agente | Extracción y síntesis de literatura científica | Python, ArXiv API |
-
-### 1.4. Automatización & Productividad
-> Tareas recurrentes, interacción con navegador/sistema operativo, gestión de agendas y notas.
-
-| Repositorio | Tipo | Descripción | Stack / Protocolo |
-| :--- | :--- | :--- | :--- |
-| *Ejemplo: BrowserOps* | Skill | Automatización de flujos de navegación headless | Node.js, Playwright |
-
-### 1.5. Datos, Analytics & Business Intelligence
-> Análisis exploratorio de datos, generación de dashboards, consultas SQL y predicciones.
-
-| Repositorio | Tipo | Descripción | Stack / Protocolo |
-| :--- | :--- | :--- | :--- |
-| *Ejemplo: DataAnalystBot* | Agente | Consulta de bases de datos y visualización con Seaborn | Python, SQL, DuckDB |
-
----
-
-## 🧩 2. Clasificación por Orientación Técnica
-
-### 2.1. Frameworks de Orquestación Multi-Agente
-> Arquitecturas para coordinar flotas de agentes distribuidos y especializados.
-
-- **CrewAI**: Orquestación de agentes con roles definidos y trabajo colaborativo.
-- **AutoGen**: Framework conversacional y multi-agente personalizable.
-- **LangGraph**: Modelado de agentes mediante grafos de estados y ciclos.
-
-### 2.2. Protocolos & Ecosistemas (MCP, Tools & Skills)
-> Estándares de interoperabilidad, servidores de contexto y librerías de habilidades.
-
-- **Model Context Protocol (MCP)**: Estándar abierto para conectar modelos de lenguaje con herramientas y fuentes de contexto.
-- **Antigravity Skills Ecosystem**: Paquetes de instrucciones especializadas y workflows para entornos agentic.
-
-### 2.3. Agentes Autónomos / Goal-Driven
-> Agentes orientados a objetivos con bucles de autoevaluación, planificación y corrección de errores.
-
----
-
-## 🏢 3. Clasificación por Sector Industrial
-
-### 3.1. Financiero & Fintech
-- Detección de fraude, análisis crediticio y procesamiento de facturas/recibos.
-
-### 3.2. Salud & Biotecnología
-- Triage clínico experimental, análisis de historiales anonimizados y asistencia bibliográfica médica.
-
-### 3.3. Legal & Compliance
-- Revisión de contratos, análisis de términos y condiciones (ToS) y auditoría de normativas (GDPR/RGPD).
-
-### 3.4. E-Commerce & Retail
-- Agentes de atención al cliente, pricing dinámico y asistentes de recomendación de compra.
+### 🏢 3. Por Sector Industrial
+- [💳 Fintech & Servicios Financieros](sectores/fintech/README.md)
+- [🏥 Salud & Biotecnología](sectores/salud/README.md)
+- [⚖️ Legal & Compliance](sectores/legal/README.md)
+- [🛍️ E-Commerce & Retail](sectores/ecommerce/README.md)
 
 ---
 
 ## 📝 Plantilla para Nuevas Entradas
 
-Para sugerir un nuevo repositorio, por favor usa el siguiente formato:
+Para agregar un nuevo repositorio a cualquiera de los subdirectorios, añade una fila o ficha con el formato estándar:
 
 ```markdown
-### [Nombre del Repositorio](URL)
-- **Tipo**: [Skill | Agente | Multi-Agente | MCP Server | Framework]
-- **Temática**: [Ciberseguridad | DevOps | RAG | ...]
-- **Orientación**: [Autónomo | Asistido | Herramienta/Protocolo]
-- **Sector**: [Transversal | Fintech | Salud | Legal | ...]
-- **Descripción**: Breve descripción del proyecto y sus capacidades principales.
+### [Nombre del Repositorio](https://github.com/usuario/repo)
+- **Tipo**: `Skill` | `Agente` | `Multi-Agente` | `MCP Server` | `Framework`
+- **Descripción**: Resumen conciso de la funcionalidad y caso de uso.
+- **Stack / Protocolo**: Lenguaje base, frameworks o APIs integradas (ej. Python, TypeScript, MCP, LangGraph).
 ```
 
 ---
 
-## 🤝 Contribución
+## 🤝 Cómo Contribuir
 
-1. Haz un fork del repositorio.
-2. Crea una rama con tu propuesta (`git checkout -b feature/nuevo-repo`).
-3. Añade la entrada en la sección correspondiente respetando la plantilla.
-4. Realiza un commit con un mensaje descriptivo.
-5. Abre un Pull Request.
+1. Localiza el subdirectorio adecuado (`tematicas/`, `orientaciones/` o `sectores/`).
+2. Edita el archivo `README.md` correspondiente.
+3. Si el repositorio abarca más de un área, puedes referenciarlo en el subdirectorio primario e indexarlo en el secundario.
+4. Realiza tu commit y envía tu Pull Request.

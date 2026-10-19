@@ -8,4 +8,4 @@ Agentes de investigación biomédica, apoyo documental a profesionales sanitario
 
 | Repositorio | Tipo | Descripción | Stack / Protocolo | Enlace |
 | :--- | :--- | :--- | :--- | :--- |
-| *Pendiente de añadir* | - | - | - | - |
+| **Scientific Agent Skills** | Skill / Ciencia | Biblioteca de skills para investigación científica, biomedicina, bioinformática y consultas a bases de datos de salud | Markdown (SKILL.md), Python | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |

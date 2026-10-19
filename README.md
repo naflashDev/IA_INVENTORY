@@ -25,7 +25,8 @@ SKILL_INVENTORY/
     ├── ciberseguridad/                # Pentesting, auditorías y detección
     ├── datos-analitica/               # Análisis de datos, SQL y BI
     ├── devops-desarrollo/             # Coding assistants, CI/CD y refactor
-    └── investigacion-rag/             # RAG, búsqueda profunda y literatura
+    ├── investigacion-rag/             # RAG, búsqueda profunda y literatura
+    └── ui-ux-interfaces/              # Diseño de interfaces, componentes y UI generativa
 ```
 
 ---
@@ -38,6 +39,7 @@ SKILL_INVENTORY/
 - [🔍 Investigación, RAG & Recuperación de Información](tematicas/investigacion-rag/README.md)
 - [⚡ Automatización & Productividad](tematicas/automatizacion-productividad/README.md)
 - [📊 Datos, Analytics & Business Intelligence](tematicas/datos-analitica/README.md)
+- [🎨 UI/UX & Interfaces Generativas](tematicas/ui-ux-interfaces/README.md)
 
 ### 🧩 2. Por Orientación Técnica
 - [🤝 Frameworks Multi-Agente](orientaciones/multi-agente/README.md) (CrewAI, AutoGen, LangGraph, etc.)

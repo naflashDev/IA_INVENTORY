@@ -1,0 +1,7 @@
+# Regla de agente operativa local (solo en la raíz)
+/agent.md
+/AGENT.md
+
+# Archivos de entorno y logs
+.env
+*.log

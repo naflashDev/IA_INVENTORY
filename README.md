@@ -14,6 +14,7 @@ SKILL_INVENTORY/
 │   ├── autonomos/                     # Agentes goal-driven y reflexivos
 │   ├── mcp-tools/                     # Servidores MCP, protocolos y herramientas
 │   └── multi-agente/                  # Frameworks y arquitecturas multi-agente
+├── plantillas/                        # Boilerplates y plantillas estándar (agent.md, skills, hooks, etc.)
 ├── sectores/
 │   ├── ecommerce/                     # Comercio electrónico y retail
 │   ├── fintech/                       # Finanzas, contabilidad y fraude
@@ -48,6 +49,9 @@ SKILL_INVENTORY/
 - [🏥 Salud & Biotecnología](sectores/salud/README.md)
 - [⚖️ Legal & Compliance](sectores/legal/README.md)
 - [🛍️ E-Commerce & Retail](sectores/ecommerce/README.md)
+
+### 📋 4. Plantillas y Boilerplates Estándar
+- [📑 Catálogo de Plantillas](plantillas/README.md) (Agentes, `agent.md`, `SKILL.md`, `hooks.json`, `CLAUDE.md`, MCP, reglas de entorno)
 
 ---
 

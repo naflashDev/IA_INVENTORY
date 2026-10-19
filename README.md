@@ -66,7 +66,8 @@ Para agregar un nuevo repositorio a cualquiera de los subdirectorios, añade una
 
 ## 🤝 Cómo Contribuir
 
-1. Localiza el subdirectorio adecuado (`tematicas/`, `orientaciones/` o `sectores/`).
-2. Edita el archivo `README.md` correspondiente.
-3. Si el repositorio abarca más de un área, puedes referenciarlo en el subdirectorio primario e indexarlo en el secundario.
-4. Realiza tu commit y envía tu Pull Request.
+Si conoces o desarrollas un repositorio, agente o skill de IA que deba estar en este catálogo:
+
+1. Abre un **[Issue](../../issues/new)** en este repositorio.
+2. Proporciona el enlace al repositorio y los datos usando la [Plantilla para Nuevas Entradas](#-plantilla-para-nuevas-entradas).
+3. Revisaré el issue y lo actualizaré en la sección correspondiente del inventario.

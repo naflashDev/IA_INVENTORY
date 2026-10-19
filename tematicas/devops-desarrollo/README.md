@@ -8,4 +8,4 @@ Repositorios, agentes de asistencia a la programación, refactorización asistid
 
 | Repositorio | Tipo | Descripción | Stack / Protocolo | Enlace |
 | :--- | :--- | :--- | :--- | :--- |
-| *Pendiente de añadir* | - | - | - | - |
+| **awesome-design-md** | Colección / Especificación | Colección de archivos `DESIGN.md` para estandarizar sistemas de diseño legibles por agentes de código y LLMs | Markdown, AI Coding Agents | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) |
